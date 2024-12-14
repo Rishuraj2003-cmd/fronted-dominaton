@@ -1,0 +1,28 @@
+#downlaodcapsule{
+   top: 50%;
+   left: 50%;
+   position: absolute;
+   transform: translate(-50%,-50%);
+   width: 300px;
+   height: 10px;
+   border-radius: 100px;
+   background-color: #dadada;
+
+
+}
+#Progress
+{
+    transition: cubic-bezier(0.19, 1, 0.22, 1) .2;
+    background-color: rgb(101, 235, 101);
+    width: 10%;
+    height: 10px;
+    border-radius: 100px;
+
+}
+#center h3 {
+    top: 40%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+   opacity: 0;
+}
