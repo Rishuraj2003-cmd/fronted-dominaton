@@ -47,21 +47,30 @@ html body{
     text-align: right;
 }
 .line h1{
-    
-    font-size:6.5vw ;
+    font-size: 7vw;
+    text-transform: uppercase;
+    font-family: "plain light";
+    font-weight: 600; 
+    /* font-size:6.5vw ;
     text-transform: uppercase;
     font-weight: 900;
-    
+     */
 }
-.line h2{
-    font-size: 6vw;
+.blink {
     text-transform: uppercase;
-    font-weight: 900;
+    font-size: 4vw;
+    /* width: 16vw; */
+    display: flex;
+    align-items: center;
+    height: 14vh;
+  }
+  .blink h2 {
+    font-weight: 400;
     opacity: 0;
-    animation-name: anime;
     animation-duration: 2s;
     animation-iteration-count: infinite;
-}
+    color: whitesmoke;
+  }
 @keyframes anime{
     0%{
         font-family: "plain light";
@@ -105,3 +114,4 @@ html body{
     background-color: #111;
 
 }
+ 
